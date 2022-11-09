@@ -20,13 +20,9 @@ def get_weather():
 
 
 root['bg'] = '#fafafa'
-
 root.title('Your sun')
-
 root.geometry('300x250')
-
 root.resizable(width=False, height=False)
-
 
 frame_top = Frame(root, bg='#ffb700', bd=5)
 
