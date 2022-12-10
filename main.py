@@ -10,7 +10,7 @@ def get_weather():
     city = cityField.get()
 
 
-    key = '9fec1c29f0ae64fc2c65f8387198cfd0'
+    key = ''
     url = 'http://api.openweathermap.org/data/2.5/weather'
     params = {'APPID': key, 'q': city, 'units': 'metric'}
     result = requests.get(url, params=params)
